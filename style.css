@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    color: white;
+}
+
+h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgba(0, 255, 242, 0.473);
+}
+
+svg{
+    height: 20px;
+    width: 20px;
+    color: white;
+}
+
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+
+.container{
+    display: grid;
+    height: 100vh;
+    gap: 1px;
+    grid-template-columns:  1fr 1.5fr ;
+    grid-template-rows: 4rem auto;
+
+}
+
+.sidebar{
+    background-color: rgb(0, 32, 51);
+    grid-row: span 2;
+    position: fixed;
+    /* top: 0;
+    left: 0; */
+    width: 250px;
+    height: 100vh;
+    overflow-y: auto;
+    
+}
+
+.navbar{
+    background-color: rgb(255, 255, 255);
+    grid-column: span 2;
+    height: 4rem;
+    border-bottom: solid 3px rgb(207, 207, 207);
+    margin-left: 250px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 40px;
+    gap: 20px;
+
+}
+
+.mainbar{
+   
+    grid-column: span 2;
+    background-color: aliceblue;
+    padding: 20px; 
+    margin-left: 250px;
+
+
+}
+
+
+.profile{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    gap: 10px;
+}
+
+.poto-profile{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    
+}
+
+
+.nama{
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+}
+
+
+
+.menu-bar{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+
+
+.menu-dasboard{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.menu-admin{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.menu-company{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.menu-message{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.menu-request{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+
+.menu-leave{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.menu-spesial{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+
+.menu-payroll{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.navbar-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.grid-item-navbar{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.counter-search-bar{
+
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+
+
+}
+
+.navbar-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-right: 50px;
+
+}
+
+.search-bar{
+    width: 200px;
+    height: 30px;
+    border: 2px solid rgb(184, 184, 184);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding-left: 10px;
+    border-radius: 50px;
+}
+
+.inputan{
+    width: 15m0px;
+    height: 20px;
+    border: none;
+    outline: none;
+}
+
+
+.chat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid  rgb(184, 184, 184);
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+.isi-dasboard1{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    width: 100%;
+    padding-top: 32px;
+}
+
+
+.text{
+    color: black;
+}
+
+
+.grid-item-mainbar{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.number-staf{
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 0px 0px 0px 1px rgb(0 0 0 / 0.06),
+      0px 1px 1px -0.5px rgb(0 0 0 / 0.06),
+      0px 3px 3px -1.5px rgb(0 0 0 / 0.06), 
+      0px 6px 6px -3px rgb(0 0 0 / 0.06),
+      0px 12px 12px -6px rgb(0 0 0 / 0.06),
+      0px 24px 24px -12px rgb(0 0 0 / 0.06);
+    border-radius: 10px;
+}
+
+
+.number-leave{
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 0px 0px 0px 1px rgb(0 0 0 / 0.06),
+      0px 1px 1px -0.5px rgb(0 0 0 / 0.06),
+      0px 3px 3px -1.5px rgb(0 0 0 / 0.06), 
+      0px 6px 6px -3px rgb(0 0 0 / 0.06),
+      0px 12px 12px -6px rgb(0 0 0 / 0.06),
+      0px 24px 24px -12px rgb(0 0 0 / 0.06);
+    border-radius: 10px;
+}
+
+
+.profile-update{
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 0px 0px 0px 1px rgb(0 0 0 / 0.06),
+      0px 1px 1px -0.5px rgb(0 0 0 / 0.06),
+      0px 3px 3px -1.5px rgb(0 0 0 / 0.06), 
+      0px 6px 6px -3px rgb(0 0 0 / 0.06),
+      0px 12px 12px -6px rgb(0 0 0 / 0.06),
+      0px 24px 24px -12px rgb(0 0 0 / 0.06);
+    border-radius: 10px;
+}
+
+.nextday{
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 0px 0px 0px 1px rgb(0 0 0 / 0.06),
+      0px 1px 1px -0.5px rgb(0 0 0 / 0.06),
+      0px 3px 3px -1.5px rgb(0 0 0 / 0.06), 
+      0px 6px 6px -3px rgb(0 0 0 / 0.06),
+      0px 12px 12px -6px rgb(0 0 0 / 0.06),
+      0px 24px 24px -12px rgb(0 0 0 / 0.06);
+    border-radius: 10px;
+}
+
+.isi-dasboard2{
+    display: grid;
+    grid-template-columns: 1.3fr 1.2fr 1.2fr;
+    grid-template-rows: 1fr 1fr;
+    width: 85%;
+    height: 500px;
+    
+    margin-top: 50px;
+    gap: 2rem;
+
+}
+
+
+.block{
+    
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 0px 1px rgb(0 0 0 / 0.06),
+      0px 1px 1px -0.5px rgb(0 0 0 / 0.06),
+      0px 3px 3px -1.5px rgb(0 0 0 / 0.06), 
+      0px 6px 6px -3px rgb(0 0 0 / 0.06),
+      0px 12px 12px -6px rgb(0 0 0 / 0.06),
+      0px 24px 24px -12px rgb(0 0 0 / 0.06);
+}
+
+.satu{
+    grid-row: span 2;
+}
+
+
+.isi-dasboard3{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    align-items: center;
+    padding-top: 50px;
+}
+
+
+.konten3{
+    width: 270px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 1px rgb(0 0 0 / 0.06),
+      0px 1px 1px -0.5px rgb(0 0 0 / 0.06),
+      0px 3px 3px -1.5px rgb(0 0 0 / 0.06), 
+      0px 6px 6px -3px rgb(0 0 0 / 0.06),
+      0px 12px 12px -6px rgb(0 0 0 / 0.06),
+      0px 24px 24px -12px rgb(0 0 0 / 0.06);
+      background-color: white;
+    
+}
+
+
+
+
+
+.view-staf{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgba(169, 216, 255, 0.76);
+}
+
+
+.kntn-number{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.tulisan-staff{
+    color: black;
+
+}
+
+
